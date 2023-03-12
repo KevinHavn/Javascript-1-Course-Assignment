@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+}
+li a:link,
+li a:active,
+li a:visited {
+  color: white;
+  text-decoration: none;
+}
+.navigation {
+  background: rgb(59, 59, 59);
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem;
+  margin-top: auto;
+}
+li {
+  font-family: arial;
+  font-size: 1.5rem;
+  list-style: none;
+  color: white;
+}
+li:hover {
+  color: black;
+  border-radius: 2px;
+}
+
+main {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.flex {
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+}
+.row {
+  flex-direction: row;
+  justify-content: center;
+}
+.input {
+  margin-top: 1rem;
+}
+.grid {
+  display: grid;
+  gap: 10px;
+  margin-top: 10rem;
+}
+.homepage {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+.contact {
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+.details {
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+.object {
+  background: grey;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  gap: 20px;
+}
+.form-error {
+  color: darkred;
+  font-size: 14px;
+  display: none;
+  margin-top: 2px;
+}
+#selected {
+  color: black;
+}
